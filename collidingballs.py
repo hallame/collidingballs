@@ -2,7 +2,6 @@ import tkinter
 import random
 
 # definitions
-
 WIDTH = 700
 HEIGHT = 600
 BG_COLOR = 'black'
@@ -16,7 +15,6 @@ MIN_RADIUS = 20
 INIT_DX = 1
 INIT_DY = 1
 ZERO = 0
-
 
 # class ball
 class Ball():
