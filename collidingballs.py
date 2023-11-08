@@ -53,7 +53,7 @@ class Ball():
                     balls.remove(ball)
                     self.dx = -self.dx
                     self.dy = -self.dy
-                else:  # bad ball (red)
+                else:                       # bad ball (red)
                     self.dx = self.dy = 0
         self.hide()
         self.x += self.dx
